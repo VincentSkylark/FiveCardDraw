@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" >
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/poker.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>5 Draws</title>
+</head>
+<body>
+<div id="game">
+    <h2 id="title">FIVE CARD DRAW</h2>
+    <div>
+        <table id="oddTable">
+            <tr>
+                <td class="handType">ROYAL FLUSH</td>
+                <td class="dots"></td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td class="handType">STRAIGHT FLUSH</td>
+                <td class="dots"></td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td class="handType">4 OF A KIND</td>
+                <td class="dots"></td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td class="handType">FULL HOUSE</td>
+                <td class="dots"></td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td class="handType">FLUSH</td>
+                <td class="dots"></td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td class="handType">STRAIGHT</td>
+                <td class="dots"></td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td class="handType">3 OF A KIND</td>
+                <td class="dots"></td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td class="handType">TWO PAIR</td>
+                <td class="dots"></td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td class="handType">JACKS OR BETTER</td>
+                <td class="dots"></td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    <div class="cards">
+        <div class="card">
+            <div id="isHeld0">HELD</div>
+            <canvas id="card0" width="100"></canvas>
+        </div>
+        <div class="card">
+            <div id="isHeld1">HELD</div>
+            <canvas id="card1" width="100"></canvas>
+        </div>
+        <div class="card">
+            <div id="isHeld2">HELD</div>
+            <canvas id="card2" width="100"></canvas>
+        </div>
+        <div class="card">
+            <div id="isHeld3">HELD</div>
+            <canvas id="card3" width="100"></canvas>
+        </div>
+        <div class="card">
+            <div id="isHeld4">HELD</div>
+            <canvas id="card4" width="100"></canvas>
+        </div>
+
+    </div>
+    <div id="control-panel">
+        <button id="newGame">New Game</button>
+        <button id="deal">DEAL</button>
+    </div>
+    <div id="dashboard">
+        <div><span id="wins">0 / 0</span>WINS</div>
+        <div><span id="credits">1000</span> CREDITS</div>
+    </div>
+</div>
+</body>
+</html>

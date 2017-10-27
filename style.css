@@ -1,0 +1,58 @@
+*{
+    margin:0;
+}
+#game{
+    padding-top: 50px;
+    color: yellow;
+    background-color: blue;
+    height: 100vh;
+}
+#title{
+    text-align: center;
+}
+#oddTable{
+    width: 80%;
+    max-width: 750px;
+    margin: auto;
+    padding: 10px;
+}
+.dots{
+    text-align: center;
+    overflow: hidden;
+    word-break: break-all;
+}
+.handType{
+    white-space: nowrap;
+}
+.cards{
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    text-align: center;
+}
+#isHeld0, #isHeld1, #isHeld2, #isHeld3, #isHeld4{
+    visibility: hidden;
+}
+#control-panel{
+    width: 80%;
+    margin: auto;
+}
+#newGame{
+    background-color: yellow;
+    font-weight: bold;
+    float: left;
+    width: 90px;
+    height: 35px;
+}
+#deal{
+    background-color: yellow;
+    font-weight: bold;
+    float: right;
+    width: 90px;
+    height: 35px;
+}
+#dashboard{
+    display: inline;
+    text-align: center;
+}
